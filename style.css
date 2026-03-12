@@ -1,0 +1,38 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing: border-box;
+font-family: 'helvetica neue';
+color: white;
+}
+html , body{
+height : 100%;
+width : 100%;
+}
+body{
+    background-color: black;
+    cursor: none;
+}
+
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+} */
+
+/* img{
+    height: 300px;
+} */
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #333; 
+}
+
+#cursor{
+    position: fixed;
+    height: 50px;
+    transform: translate(-50%,-50%);
+}
